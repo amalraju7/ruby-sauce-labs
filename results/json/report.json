@@ -1,0 +1,1498 @@
+[
+  {
+    "id": "checkout",
+    "uri": "features/checkout.feature",
+    "keyword": "Feature",
+    "name": "Checkout",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@Checkout",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "checkout;user-should-to-try-to-checkout-in-saucedemo;;2",
+        "keyword": "Scenario Outline",
+        "name": "User should to try to checkout in saucedemo",
+        "description": "",
+        "line": 18,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User open saucedemo",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2337779416
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User try to login with \"valid\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1552722250
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"success\" to login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2526383916
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User sort \"name_a_to_z\" item",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 574538500
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User add items to cart",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 554511875
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User check cart",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63057750
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User continue shop",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77891000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User remove items from cart",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86806708
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User checkout",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 410908875
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User try to input information with \"input_checkout_step_one_field\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7230601375
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"success\" to input information",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1117951416
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1153680584
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 314156209
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout;user-should-to-try-to-checkout-in-saucedemo;;3",
+        "keyword": "Scenario Outline",
+        "name": "User should to try to checkout in saucedemo",
+        "description": "",
+        "line": 19,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User open saucedemo",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2425042542
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User try to login with \"valid\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2177304375
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"success\" to login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2697090666
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User sort \"name_z_to_a\" item",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 848860125
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User add items to cart",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 880290125
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User check cart",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104991125
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User continue shop",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125675750
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User remove items from cart",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121682333
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User checkout",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 873097167
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User try to input information with \"empty_checkout_step_one_field\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7618884208
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"failed\" to input information",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87125
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1510450875
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329456916
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout;user-should-to-try-to-checkout-in-saucedemo;;4",
+        "keyword": "Scenario Outline",
+        "name": "User should to try to checkout in saucedemo",
+        "description": "",
+        "line": 20,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User open saucedemo",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2446477458
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User try to login with \"valid\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1616504375
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"success\" to login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2478427125
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User sort \"price_low_to_high\" item",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 569719833
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User add items to cart",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 646267917
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User check cart",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133139250
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User continue shop",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127741542
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User remove items from cart",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113075500
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User checkout",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 574986750
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User try to input information with \"empty_firstname_checkout_step_one_field\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7064576875
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"failed\" to input information",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68792
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1236251625
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 202620625
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout;user-should-to-try-to-checkout-in-saucedemo;;5",
+        "keyword": "Scenario Outline",
+        "name": "User should to try to checkout in saucedemo",
+        "description": "",
+        "line": 21,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User open saucedemo",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2376870375
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User try to login with \"valid\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1792580917
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"success\" to login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2553715125
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User sort \"price_high_to_low\" item",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 600723708
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User add items to cart",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 571566500
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User check cart",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81886292
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User continue shop",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129682125
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User remove items from cart",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107939042
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User checkout",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 441215833
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User try to input information with \"empty_lastname_checkout_step_one_field\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7048006041
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"failed\" to input information",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76041
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1113110958
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135129084
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout;user-should-to-try-to-checkout-in-saucedemo;;6",
+        "keyword": "Scenario Outline",
+        "name": "User should to try to checkout in saucedemo",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User open saucedemo",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2338029416
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User try to login with \"valid\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1474654500
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"success\" to login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2401404792
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User sort \"name_a_to_z\" item",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 517466375
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User add items to cart",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 548958666
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User check cart",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67041791
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User continue shop",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110606208
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User remove items from cart",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97526250
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User checkout",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 407598375
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User try to input information with \"empty_postalcode_checkout_step_one_field\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000167667
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"failed\" to input information",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80166
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1039485792
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 298966500
+            }
+          }
+        ]
+      },
+      {
+        "id": "checkout;user-should-be-able-to-checkout-in-saucedemo",
+        "keyword": "Scenario",
+        "name": "User should be able to checkout in saucedemo",
+        "description": "",
+        "line": 24,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User open saucedemo",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2433445250
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User try to login with \"valid\"",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1634657125
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"success\" to login",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2547598500
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User sort \"price_low_to_high\" item",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 581068334
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User add items to cart",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 644431458
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User check cart",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113176292
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User continue shop",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91419167
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User remove items from cart",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97351084
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User checkout",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 416928958
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "User try to input information with \"input_checkout_step_one_field\"",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6977213666
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"success\" to input information",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/checkout_step.rb:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 838793084
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Checkout",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1066681625
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249723042
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "login",
+    "uri": "features/login.feature",
+    "keyword": "Feature",
+    "name": "Login",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@Login",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "login;user-try-to-login-to-saucedemo;;2",
+        "keyword": "Scenario Outline",
+        "name": "User try to login to saucedemo",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User open saucedemo",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2255667209
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User try to login with \"valid\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1654825875
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"success\" to login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2516941667
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1138594541
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232127209
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;user-try-to-login-to-saucedemo;;3",
+        "keyword": "Scenario Outline",
+        "name": "User try to login to saucedemo",
+        "description": "",
+        "line": 11,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User open saucedemo",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2397284708
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User try to login with \"invalid_username\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1555388375
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"failed\" to login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57667
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1124105291
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195660250
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;user-try-to-login-to-saucedemo;;4",
+        "keyword": "Scenario Outline",
+        "name": "User try to login to saucedemo",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User open saucedemo",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2373689667
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User try to login with \"invalid_password\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1472388000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"failed\" to login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35625
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1115764375
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151564042
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;user-try-to-login-to-saucedemo;;5",
+        "keyword": "Scenario Outline",
+        "name": "User try to login to saucedemo",
+        "description": "",
+        "line": 13,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User open saucedemo",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2334822959
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User try to login with \"empty_username\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1461675709
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"failed\" to login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63917
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1099557459
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 198428167
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;user-try-to-login-to-saucedemo;;6",
+        "keyword": "Scenario Outline",
+        "name": "User try to login to saucedemo",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User open saucedemo",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2533189416
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User try to login with \"empty_password\"",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1675365375
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"failed\" to login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65792
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1271142125
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 306427625
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;user-should-be-able-to-login-to-saucedemo",
+        "keyword": "Scenario",
+        "name": "User should be able to login to saucedemo",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "User open saucedemo",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2360846416
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "User try to login with \"valid\"",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1624173208
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify User \"success\" to login",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/login_step.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2428542167
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1145547709
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264702125
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
