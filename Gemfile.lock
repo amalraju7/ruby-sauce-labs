@@ -3,6 +3,8 @@ GEM
   specs:
     bigdecimal (2.0.0)
     builder (3.3.0)
+    bundle (0.0.1)
+      bundler
     cucumber (9.2.0)
       builder (~> 3.2)
       cucumber-ci-environment (> 9, < 11)
@@ -67,6 +69,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bundle
   cucumber
   report_builder
   rspec

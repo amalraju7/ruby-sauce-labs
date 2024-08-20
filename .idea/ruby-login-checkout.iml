@@ -13,6 +13,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="bigdecimal (v2.0.0, ruby-2.7.8-p225) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.3.0, ruby-2.7.8-p225) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundle (v0.0.1, ruby-2.7.8-p225) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.4.22, ruby-2.7.8-p225) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="cucumber (v9.2.0, ruby-2.7.8-p225) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="cucumber-ci-environment (v10.0.1, ruby-2.7.8-p225) [gem]" level="application" />
