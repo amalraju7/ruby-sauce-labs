@@ -1,5 +1,5 @@
 Before do
-    $browser = Selenium::WebDriver.for :chrome
+    $browser = Selenium::WebDriver::Chrome .for :chrome
 end
 
 After do |scenario|
